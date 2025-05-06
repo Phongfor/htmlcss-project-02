@@ -252,3 +252,117 @@ a{
     line-height: 1.23;
     color: #171100;
 }
+
+/* ==========================Courses============= */
+.courses{
+    margin-top: 200px;
+}
+
+.courses .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses .heading{
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 3.8rem;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+.courses .info{
+    margin-top: 16px;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #5F5B53;
+}
+
+.courses .action{
+    display: flex;
+    gap: 18px;
+}
+
+.courses .action a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: solid;
+    border-radius: 50%;
+}
+
+.courses .action .arrow-left{
+    border: solid 1px #FFB900;
+}
+
+.courses .action .arrow-right{
+    border: none;
+    background-color: #FFB900;
+}
+
+.courses .body{
+    padding: 16px 22px 22px;
+}
+
+.courses .item{
+    width: 370px;
+    border: solid 1px #E2DFDA;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+}
+
+.courses .list{
+    margin-top: 55px;
+    display: flex;
+    gap: 30px;
+}
+
+.courses .list .title-evaluate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses .list .title-evaluate .title{
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #171100;
+}
+
+.courses .list .title-evaluate .evaluate-start{
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #FFB900;
+}
+
+.courses .list .cost{
+    font-weight: 700;
+    color: #171100;
+
+}
+
+.courses .list .desc{
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #5F5B53;
+}
+
+.courses .list .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses .list .btn-first{
+    background-color: #FFB900;
+    color: #fff;
+}
+
+.courses .item:first-child{
+    background: #fff;
+    border: none;
+}
+
